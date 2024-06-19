@@ -9,6 +9,7 @@ This project is divided into two main parts: `client` and `server`. Each folder 
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -86,6 +87,23 @@ By default, the server will run on `http://localhost:8080` and the client on `ht
 - Express.js
 - MongoDB (Mongoose for object data modeling)
 - JWT (JSON Web Tokens) for authentication
+
+## Screenshots
+
+| ![Screenshot 1](./screenshots/home.png) | ![Screenshot 2](./screenshots/form.png) |
+|:---------------------------------------:|:----------------------------------------:|
+| *Screenshot - 1 - Home Page*            | *Screenshot - 2 - Form Page*             |
+
+| ![Screenshot 3](./screenshots/users.png) | ![Screenshot 4](./screenshots/cv.png) |
+|:----------------------------------------:|:-------------------------------------:|
+| *Screenshot - 3 - Users Page*            | *Screenshot - 4 - CV Page*             |
+
+| ![Screenshot 5](./screenshots/logIn.png) | ![Screenshot 6](./screenshots/signUp.png) |
+|:----------------------------------------:|:-----------------------------------------:|
+| *Screenshot - 5 - Login Page*            | *Screenshot - 6 - Sign Up Page*           |
+
+
+
 
 ## License
 
