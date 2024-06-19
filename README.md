@@ -1,132 +1,100 @@
-Project: MERN Stack with Authentication Token
+# Project: MERN Stack with Authentication Token
 
-This project is divided into two main parts: client and server. Each folder contains its own package.json file, listing all the required modules that need to be installed before running the project.
+This project is divided into two main parts: `client` and `server`. Each folder contains its own `package.json` file, listing all the required modules that need to be installed before running the project.
 
-Table of Contents
+## Table of Contents
 
-Project Overview
-Prerequisites
-Installation
-Running the Project
-Folder Structure
-Technologies Used
-Project Overview
+- [Project Overview](#project-overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
+## Project Overview
 
 This project demonstrates a full-stack application built using the MERN stack (MongoDB, Express.js, React, Node.js). It includes authentication using tokens to secure routes and manage user sessions.
 
-Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-Node.js (v14 or later)
-npm (v6 or later) or Yarn (v1.22 or later)
-MongoDB
-Installation
+- Node.js (v14 or later)
+- npm (v6 or later) or Yarn (v1.22 or later)
+- MongoDB
+
+## Installation
 
 To set up the project, follow these steps:
 
-Clone the repository:
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
 
-bash
-Копировать код
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install dependencies for the server:
+2. **Install dependencies for the server:**
+    ```bash
+    cd server
+    npm install
+    # or
+    yarn install
+    ```
 
-bash
-Копировать код
-cd server
-npm install
+3. **Install dependencies for the client:**
+    ```bash
+    cd ../client
+    npm install
+    # or
+    yarn install
+    ```
 
-# or
-
-yarn install
-Install dependencies for the client:
-
-bash
-Копировать код
-cd ../client
-npm install
-
-# or
-
-yarn install
-Running the Project
+## Running the Project
 
 To run the project, you need to start both the client and server. Follow these instructions:
 
-Start the server:
+1. **Start the server:**
+    ```bash
+    cd server
+    npm start
+    # or
+    yarn start
+    ```
 
-bash
-Копировать код
-cd server
-npm start
+2. **Start the client:**
+    ```bash
+    cd ../client
+    npm start
+    # or
+    yarn start
+    ```
 
-# or
+By default, the server will run on `http://localhost:8080` and the client on `http://localhost:3000`.
 
-yarn start
-Start the client:
+## Technologies Used
 
-bash
-Копировать код
-cd ../client
-npm start
+**Frontend:**
+- React
+- React Router
+- Axios
+- JWT (JSON Web Tokens) for authentication
 
-# or
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (Mongoose for object data modeling)
+- JWT (JSON Web Tokens) for authentication
 
-yarn start
-By default, the server will run on http://localhost:5000 and the client on http://localhost:3000.
+## License
 
-Folder Structure
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The project has the following structure:
-
-lua
-Копировать код
-your-repo-name/
-├── client/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── ... (other React files)
-│ ├── package.json
-│ └── ... (other config files)
-│
-└── server/
-├── config/
-├── controllers/
-├── models/
-├── routes/
-├── index.js
-├── package.json
-└── ... (other Node.js files)
-Technologies Used
-
-Frontend:
-
-React
-React Router
-Axios
-JWT (JSON Web Tokens) for authentication
-Backend:
-
-Node.js
-Express.js
-MongoDB (Mongoose for object data modeling)
-JWT (JSON Web Tokens) for authentication
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
 
-Contact
+## Contact
 
-For any questions or issues, please contact [your-email@example.com].
-
-Feel free to customize this README.md further based on your specific project details and requirements.
+For any questions or issues, please contact [maksim.shepeta@gmail.com].
