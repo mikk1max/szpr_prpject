@@ -1,25 +1,22 @@
-require('dotenv').config()
+require('dotenv').config();
 
-const express = require('express')
-const app = express()
-const cors = require('cors')
+const express = require('express');
+const app = express();
+const cors = require('cors');
+const userRoutes = require("./routes/users");
+const authRoutes = require("./routes/auth");
 
-//middleware
-app.use(express.json())
-app.use(cors({
-    origin: '*'
-}));
+// Middleware
+app.use(express.json());
+app.use(cors());
 
-const port = process.env.PORT || 8080
+// Routes
+app.use("/api/auth", authRoutes); // Use endpoints defined in authRoutes under /api/auth path
+app.use("/api/users", userRoutes); // Use endpoints defined in userRoutes under /api/users path
 
-const connection = require('./db')
-connection()
+const port = process.env.PORT || 8080;
 
-const userRoutes = require("./routes/users")
-const authRoutes = require("./routes/auth")
+const connection = require('./db');
+connection();
 
-// routes
-app.use("/api/users", userRoutes)
-app.use("/api/auth", authRoutes)
-
-app.listen(port, () => console.log(`Nasłuchiwanie na porcie ${port}`))
+app.listen(port, () => console.log(`Listening on port ${port}`));
