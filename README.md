@@ -32,8 +32,8 @@ To set up the project, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/mikk1max/szpr_prpject.git
+    cd szpr_prpject
     ```
 
 2. **Install dependencies for the server:**
