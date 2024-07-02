@@ -22,11 +22,11 @@ This project demonstrates a full-stack application built using the MERN stack (M
 
 Before you begin, ensure you have the following installed:
 
+- JavaScript
+- React
 - Node.js (v14 or later)
 - npm (v6 or later) or Yarn (v1.22 or later)
-- MongoDB
-- React
-- JavaScript
+- MongoDB Atlas (Cloud MongoDB)
 
 ## Installation
 
