@@ -10,8 +10,6 @@ This project is divided into two main parts: `client` and `server`. Each folder 
 - [Running the Project](#running-the-project)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [License](#license)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Project Overview
@@ -104,17 +102,6 @@ By default, the server will run on `http://localhost:8080` and the client on `ht
 |:----------------------------------------:|:-----------------------------------------:|
 | *Screenshot - 5 - Login Page*            | *Screenshot - 6 - Sign Up Page*           |
 
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
-
 ## Contact
 
-For any questions or issues, please contact [maksim.shepeta@gmail.com].
+For any questions or issues, please contact [maksim.shepeta@gmail.com](mailto:maksim.shepeta@gmail.com).
